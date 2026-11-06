@@ -1,0 +1,13 @@
+{
+  "name": "repro-js-plugin-program-only-cost",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "node gen.mjs",
+    "bench": "node bench.mjs",
+    "cpu-profile": "node profile.mjs"
+  },
+  "devDependencies": {
+    "oxlint": "1.91.0"
+  }
+}

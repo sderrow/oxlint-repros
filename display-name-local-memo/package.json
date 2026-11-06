@@ -1,0 +1,11 @@
+{
+  "name": "repro-display-name-local-memo",
+  "private": true,
+  "type": "module",
+  "scripts": { "repro": "node repro.mjs" },
+  "devDependencies": {
+    "eslint": "10.11.0",
+    "eslint-plugin-react": "7.37.5",
+    "oxlint": "1.91.0"
+  }
+}

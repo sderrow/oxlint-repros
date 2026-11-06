@@ -1,0 +1,11 @@
+{
+  "name": "repro-exhaustive-deps-plain-fix",
+  "private": true,
+  "type": "module",
+  "scripts": { "repro": "node repro.mjs" },
+  "devDependencies": {
+    "eslint": "10.11.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "oxlint": "1.91.0"
+  }
+}
