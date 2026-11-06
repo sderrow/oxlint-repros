@@ -3,5 +3,7 @@ export default {
   rules: {
     "no-visitors": { create: () => ({}) },
     "program-only": { create: () => ({ Program() {} }) },
+    "import-only": { create: () => ({ ImportDeclaration() {} }) },
+    "every-node": { create: () => ({ "*"() {} }) },
   },
 };

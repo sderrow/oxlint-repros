@@ -1,5 +1,5 @@
 {
-  "name": "repro-js-plugin-program-only-cost",
+  "name": "repro-js-plugin-visitor-cost",
   "private": true,
   "type": "module",
   "scripts": {

@@ -1,0 +1,6 @@
+{
+  "plugins": [],
+  "jsPlugins": ["./plugin.mjs"],
+  "categories": { "correctness": "off" },
+  "rules": { "bench/import-only": "error" }
+}

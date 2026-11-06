@@ -4,6 +4,6 @@ Each directory is a standalone reproduction for one oxlint issue, pinned to oxli
 
 | Directory | Issue |
 | --- | --- |
-| [`exhaustive-deps-plain-fix`](exhaustive-deps-plain-fix) | `react/exhaustive-deps` removes dependencies under plain `--fix` |
-| [`display-name-local-memo`](display-name-local-memo) | `react/display-name` reports a local function named `memo` |
-| [`js-plugin-program-only-cost`](js-plugin-program-only-cost) | A JS plugin rule that only visits `Program` still pays for the whole AST |
+| [`exhaustive-deps-plain-fix`](exhaustive-deps-plain-fix) | `react/exhaustive-deps` removes dependencies and comments under plain `--fix` |
+| [`display-name-local-memo`](display-name-local-memo) | `react/display-name` treats any function named `memo` or `forwardRef` as React's |
+| [`js-plugin-visitor-cost`](js-plugin-visitor-cost) | Any JS plugin visitor pays for deserializing and walking the whole AST |

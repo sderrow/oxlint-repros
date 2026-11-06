@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-export const fixtures = join(tmpdir(), "oxlint-program-only-fixtures");
+export const fixtures = join(tmpdir(), "oxlint-js-plugin-fixtures");
 const COUNT = 2000;
 
 const component = (f, c) => `
